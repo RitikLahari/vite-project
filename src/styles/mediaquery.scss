@@ -1,6 +1,12 @@
+.navBton{
+    display: none;
+}
+
 @media screen and (max-width:1367px){
+    
     nav{
         padding: 0 $p_md;
+       
     }
     #home{
         height: 100vh;
@@ -166,6 +172,9 @@
 
 }
 @media screen and (max-width:788px){
+    .navBton{
+        display: inline-block;
+    }
     nav{
         >div,
         >a{
@@ -265,7 +274,7 @@
         }
     }
     #timeline{
-        height: 90vh;
+        height: 100vh;
         
         .timelineBox::after{
             left: 31px;
@@ -293,7 +302,7 @@
         height: 90vh;
     }
     #testimonial{
-        height: 90vh;
+        height: 100vh;
         padding: $p_zero;
         >h2{
            padding: 3rem;
@@ -328,3 +337,4 @@
     }
 
 }
+
