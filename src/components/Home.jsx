@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import vg from "../assets/image3.jpg";
-
+import Resume from "../assets/RESUME.png"
 const Home = () => {
 
     const  clientcount=useRef(null);
@@ -58,6 +58,7 @@ const Home = () => {
            <div>
             <a href="mailto:lahariritik@gmail.com">Hire Me</a>
             <a href='#work'>Project</a>
+             <a href={Resume} download className='resume'>RESUME</a>
            </div>
            <article>
             <p>
