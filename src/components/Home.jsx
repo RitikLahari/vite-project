@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import vg from "../assets/image3.jpg";
-import Resume from "../assets/RESUME.png"
+import Resume from "../assets/Screenshot 2024-04-10 005204.png"
 const Home = () => {
 
     const  clientcount=useRef(null);
