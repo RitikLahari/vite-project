@@ -1,0 +1,26 @@
+{
+    "projects": [
+      {
+        "date": "07/10/2022",
+        "title": "HTML",
+        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "url": "https://reactone-nine.vercel.app",
+        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+      },
+  
+      {
+        "date": "11/10/2022",
+        "title": "REACT-REDUX",
+        "description": "THIS IS THE PROJECT WHERE USER CAN MAKE FOLDER,FILE AND UPLOAD ITS DATA IN SERVER",
+        "url": "https://filehandling-by-lahari.vercel.app/",
+        "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+      },
+      {
+        "date":"07/10/2024",
+        "title":"NEXT JS",
+        "description":"THIS PROJECT IS FOR OUR TECHNO FEST OJASS WHICH IS HELD ON APRAIL 2024",
+        "url":"https://ojass-2024.vercel.app/"
+
+      }
+    ]
+  }

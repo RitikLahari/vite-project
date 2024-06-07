@@ -1,0 +1,119 @@
+#contact{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    >section{
+        background-color: $color1;
+        width: 100%;
+        height: 100%;
+    >form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        >h2{
+            text-align: center;
+            font: 100 2.7rem $text2;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin: 2rem;
+        }
+    >input,>button{
+        padding: 0.8rem;
+        width: 40%;
+        outline: none;
+        margin: 2rem;
+         border: none;
+         align-items: center;
+         margin-top: 20px;
+
+    }
+    >button{
+        cursor:pointer;
+        background-color: $color3;
+        color: $color4;
+        margin: 3rem;
+        &:hover{
+            background-color: $color3_1;
+        }
+    }
+    }
+}
+>aside{
+    width: 100%;
+    height: 100%;
+    background-color: $color5;
+    display: grid;
+    place-items: center;
+    img{
+        width: 70%;
+        height: 70%;
+        object-fit: contain;
+        filter: drop-shadow(0 0 10px rgba(70, 35, 35, 0));
+        animation: upupdowndown 0.7s infinite linear alternate;
+    }
+}
+#footer{
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    margin-left: 50%;
+    >p{
+        align-items: center;
+        width: 100%;
+    }
+    >aside{
+        margin-left: 0%;
+        align-items: baseline;
+        >a,>img{
+            margin-left: 0%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+}
+
+footer{
+    position: relative;
+     width: 100%;
+     height: 30vh;
+     background-color: #605f5c;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+  }
+  footer .social-icon{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+  }
+  footer .social-icon ul li{
+   list-style: none;
+  }
+  footer .social-icon ul li a{
+    font-size: 1rem;
+    color: #ccc;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  footer .social-icon ul li a:hover{
+   transform: translate(-10px);
+  }
+  footer .menu li a{
+   text-decoration: none;
+   color: #e6e2de;
+   opacity: 0.8;
+  }
+  footer .menu li a:hover{
+   opacity: 1;
+  }
