@@ -1,8 +1,11 @@
 import React, { useRef } from 'react'
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import vg from "../assets/image3.jpg";
-import Resume from "../assets/Screenshot 2024-04-10 005204.png"
+import vg from "../assets/profile.jpg";
+import Resume from "../assets/RESUME.png"
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
 const Home = () => {
 
     const  clientcount=useRef(null);
@@ -42,6 +45,7 @@ const Home = () => {
         },
     };
   return (
+    <>
     <div id="home"> 
       <section>
         <div>
@@ -55,10 +59,10 @@ const Home = () => {
             cursor:"",
             wrapperClassName:"typewriterpara"
            }}/>
-           <div>
+           <div >
             <a href="mailto:lahariritik@gmail.com">Hire Me</a>
             <a href='#work'>Project</a>
-             <a href={Resume} download className='resume'>RESUME</a>
+            <a href={Resume} download className='resume'>RESUME</a>
            </div>
            <article>
             <p>
@@ -82,10 +86,18 @@ const Home = () => {
            </aside>
         </div>
       </section>
-      <section>
+      <section className='hexagon-image'>
         <img src={vg} alt='Ritik'/>
       </section>
     </div>
+    <div className='link' > 
+         <ul className='list'>
+            <li><a href='https://github.com/RitikLahari/File_management'><FaGithub /></a></li>
+            <li><a href='https://in.linkedin.com/in/ritik-lahari-267213254'><FaLinkedin /></a></li>
+            <li><a href='https://www.instagram.com/lahariritik/'><FaInstagramSquare /></a></li>
+         </ul>
+    </div>
+    </>
   )
 }
 
