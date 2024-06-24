@@ -127,19 +127,19 @@
   .list {
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 1;
+    margin: 5;
   
     li {
-      margin: 0 10px; // Adjust spacing between icons
+      margin: 15px 10px; // Adjust spacing between icons
   
       a {
         text-decoration: none;
-        color: #000; // Change color as needed
-        font-size: 2rem; // Adjust size of the icons
+        color: #000000; // Change color as needed
+        font-size: 3rem; // Adjust size of the icons
   
         &:hover {
-          color: #0073b1; // Change hover color as needed
+          color: #eeeeee; // Change hover color as needed
         }
       }
     }
